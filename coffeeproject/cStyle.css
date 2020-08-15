@@ -1,0 +1,170 @@
+
+body{
+  background-color: white;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo{
+
+width: 30%;
+padding-left: 34%;
+background-color: #000000 ;
+
+}
+.logo img{
+  width: 100%;
+}
+.nav{
+background-color:#7ec1d1;
+  display:flex;
+  width:50%;
+margin-left: 10%;
+  padding-left: 300px;
+  border-top: solid lightgray;
+  border-bottom: solid lightgray;}
+  .navText{
+
+    padding-right: 100px;
+    height:40px;}
+
+
+
+  .home , .about , .contact{
+    color: black;
+    display: inline-block;
+    justify-content: space-between;
+    padding:10px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;}
+    .nav a{
+      color:black;
+      text-decoration: none;
+      transition: color 0.5s;}
+      .nav a:hover{
+        color:white;
+        background-position: center;
+
+        background-size:cover;}
+        .header img{
+          width: 100%;}
+
+        .header{
+          display:flex;
+          width:73.5%;
+          margin-left: 10%;
+          border-bottom: solid lightgray ;
+        background-color: white;}
+          .men{
+            display: flex;
+            padding-top: 1%;
+            padding-left: 11%;
+            padding-top: 3%;
+          background-color: white;
+          padding-bottom: 100px;
+        }
+            .tea1,.coffee1,.desert1{
+              width: 33.33%;
+              margin: auto;}
+              .men img{
+                width: 150px;}
+                .tea1 img{
+                  position: relative;
+                }
+                .coffee1 img{
+                  position:relative;
+                }
+                .desert1 img{
+                  position: relative;
+
+                }
+.ttea , .tcoffee , .tdesert{
+  color: #7ec1d1;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+  padding-left: 13%;
+}
+.ttea{
+  padding-left: 16%;
+  text-align:
+}
+#pic:hover{
+border:solid;
+border-radius: 150px;
+border-color: #7ec1d1;
+border-width: medium;
+}
+
+.footer{
+  width: 100vw;/**vwقياس عشان يناسب اللاب والجوال**/
+  border-top: solid;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: gray;
+  border:1px dashed red;
+
+clear:both;
+
+} .innerfooter{
+  display: block;
+  margin: 0 auto;
+  width: 1100px;
+
+}
+
+.innerfooter .footer_thrid{
+  width: calc(21% - 20px);/** لاني بحط زي ثلاث اقسام وما ابغاها تكون متلاصقه فسويت امر كذا**/
+  margin-right: 10px;
+  float: left;
+
+  padding-left: 50px;
+}
+.innerfooter .footer_thrid:last-child{
+  margin-right: 0;
+
+}
+.innerfooter .footer_thrid h1{
+  font-family: arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.innerfooter .footer_thrid a{
+  font-family: arial;
+  font-size: 15px;
+  display: block;
+  color: white;
+  font-weight: 200;
+  width: 100%;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.innerfooter .footer_thrid li{
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 20px;
+
+}
+.innerfooter .footer_thrid h2{
+  font-family: arial;
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: bottom;
+  color: white;
+  width: 100%;}

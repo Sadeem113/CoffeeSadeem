@@ -1,0 +1,186 @@
+body{
+  background-color: white;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+
+
+.logo{
+
+width: 30%;
+padding-left: 34%;
+background-color: white;
+
+}
+.logo img{
+  width: 100%;
+}
+.nav{
+background-color:#7ec1d1;
+  display:flex;
+  width:50%;
+margin-left: 10%;
+  padding-left: 300px;
+  border-top: solid lightgray;
+  border-bottom: solid lightgray;}
+  .navText{
+
+    padding-right: 100px;
+    height:40px;}
+
+
+
+  .home , .about , .contact{
+    color: black;
+    display: inline-block;
+    justify-content: space-between;
+    padding:10px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;}
+    .nav a{
+      color:black;
+      text-decoration: none;
+      transition: color 0.5s;}
+      .nav a:hover{
+        color:white;
+        background-position: center;
+
+        background-size:cover;}
+        .welcome{
+          display:inline-block;
+          width: 73.5%;
+          margin-left: 10%;
+        }
+        .w-text , .w-text2{
+
+          text-transform: uppercase;
+          font-weight: bold;
+          font-family: arial;
+          color: #f4b157;
+        }
+        .w-text{
+          padding-left: 43%;
+          padding-top: 30px;
+          padding-bottom: 15px;}
+
+
+        .w-text2{
+          padding-left:28%;
+          border-bottom: solid;
+
+          border-color: lightgray;
+          padding-bottom: 15px;
+        }
+        .menu-coffee{
+          background-color: white;
+          margin-left: 5%;
+          width: 90%;
+          display: inline-block;
+          padding-top: 1.5%;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding-bottom: 100px;
+        }
+        .mcimg img{
+        display: inline-block;
+        height: 300px;
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 3%;
+
+
+          border-radius:50px;
+          margin-left: 25%;
+        }
+        .mcimg{
+          display: inline-block;
+  position: relative;
+        }
+
+        .text-img {
+position: relative;
+          padding-left:157px;
+font-weight: normal;
+          font-family: arial;
+          color: gray;
+
+        }
+        #pic1:hover{
+          border: solid;
+          border-width: thin;
+          border-radius:50px;
+          border-color: #7ec1d1;
+
+        }
+        .footer{
+          width: 100vw;/**vwقياس عشان يناسب اللاب والجوال**/
+          border-top: solid;
+          display: block;
+          overflow: hidden;
+          padding: 70px 0;
+          box-sizing: border-box;
+          background-color: gray;
+
+        } .innerfooter{
+          display: block;
+          margin: 0 auto;
+          width: 1100px;
+
+        }
+
+        .innerfooter .footer_thrid{
+          width: calc(21% - 20px);/** لاني بحط زي ثلاث اقسام وما ابغاها تكون متلاصقه فسويت امر كذا**/
+          margin-right: 10px;
+          float: left;
+
+          padding-left: 50px;
+        }
+        .innerfooter .footer_thrid:last-child{
+          margin-right: 0;
+
+        }
+        .innerfooter .footer_thrid h1{
+          font-family: arial;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 20px;
+          display: block;
+          color: white;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .innerfooter .footer_thrid a{
+          font-family: arial;
+          font-size: 15px;
+          display: block;
+          color: white;
+          font-weight: 200;
+          width: 100%;
+          padding-bottom: 5px;
+          text-decoration: none;
+        }
+        .innerfooter .footer_thrid li{
+          display: inline-block;
+          padding: 0 5px;
+          font-size: 20px;
+
+        }
+        .innerfooter .footer_thrid h2{
+          font-family: arial;
+          font-size: 15px;
+          display: inline-block;
+          vertical-align: bottom;
+          color: white;
+          width: 100%;}
